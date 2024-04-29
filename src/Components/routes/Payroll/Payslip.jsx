@@ -17,7 +17,7 @@ const Payslip = () => {
         </div>
       </div>
       {/* receipt */}
-      <div className="h-[800px] bg-white shadow-lg">
+      <div className="h-full mb-20 pb-10 bg-white shadow-lg">
         <div>
           <h3 className="underline uppercase text-center p-5  text-2xl">
             PAYSLIP FOR THE MONTH OF FEB 2019
@@ -50,7 +50,7 @@ const Payslip = () => {
         </div>
 
         {/* table-1 */}
-     <div className="flex mt-20 gap-20 justify-center align-middle items-center">
+     <div className="xl:flex lg:grid mt-20 gap-20 justify-center align-middle items-center">
      <div  >
      <h2 className="text-2xl font-bold mb-2">Earnings</h2>
 

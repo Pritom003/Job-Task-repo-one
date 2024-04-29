@@ -15,7 +15,7 @@ const Salary = () => {
   
 
   return (
-    <div data-aos="zoom-in">
+    <div data-aos="zoom-in " className="mb-20 pb-28">
       {/* title */}
       <div className="flex justify-between mb-20">
         <div>
@@ -27,8 +27,8 @@ const Salary = () => {
         </div>
       </div>
       {/* search */}
-      <div className=" grid grid-cols-6 gap-5 lg:gap-10 xl:gap-20 justify-start align-middle items-center">
-        <div className="col-span-6">
+      <div className=" grid grid-cols-6 lg:grid-cols-2  md:grid-cols-1 gap-5 lg:gap-2 xl:gap-20 justify-start align-middle items-center">
+        <div className="xl:col-span-6 lg:col-span-2">
           <input type="text" className="border-black border  h-12  w-[70%] rounded-xl text-start px-4" placeholder="Employee Name" />
         </div>
         <div>
@@ -53,8 +53,9 @@ const Salary = () => {
         <div>
           <input type="date" className="border-black border  h-12  text-start px-4" placeholder="Date" />
         </div>
-        <div>
-          <button className="btn bg-green-600 text-white w-36 rounded-3xl *
+        <div className="flex col-span- mx-auto">
+
+          <button className="btn bg-green-600  text-white w-36 rounded-3xl *
             ml-10 font-bold ">Search</button>
         </div>
       </div>
