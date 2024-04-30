@@ -42,7 +42,7 @@ const Dashboard = () => {
             </ul>
           </div>
         </div>
-        <div className="xl:col-span-5 lg:col-span-6 h-full overflow-y-auto px-20 pt-10 bg-yellow-50">
+        <div className="xl:col-span-5 lg:col-span-6 h-full overflow-y-auto min-h-screen px-20 pt-10 bg-yellow-50">
           <Outlet />
         </div>
       </div>
